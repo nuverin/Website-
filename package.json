@@ -1,0 +1,28 @@
+{
+  "name": "real-project",
+  "version": "1.0.1",
+  "description": "Portfolio",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "compile": "sass --watch assets:css"
+  },
+  "author": "Pemilik",
+  "license": "ISC",
+  "dependencies": {
+    "bootstrap": "^5.1.3"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nuverin/Website-.git"
+  },
+  "keywords": [
+    "Tidak",
+    "buruk"
+  ],
+  "bugs": {
+    "url": "https://github.com/nuverin/Website-/issues"
+  },
+  "homepage": "https://github.com/nuverin/Website-#readme"
+}

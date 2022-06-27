@@ -1,0 +1,15 @@
+@use "../../../assets/custom" as *;
+@mixin background {
+    background: $primary;
+    
+    width: 100%;
+    
+}
+@mixin backgroundlight{
+    background-color: $white;
+    color: $white;
+}
+
+@mixin lightmode {
+    background-color: $white;
+}

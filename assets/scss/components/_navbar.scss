@@ -1,0 +1,59 @@
+@use "../../../assets/custom" as *;
+@use '../utilities/mixins' as *;
+
+
+body {
+    @include lightmode;
+}
+.dark {
+    @include lightmode;
+}
+.page {
+   @include background;
+    li {
+        padding: 0 0.9rem;
+        
+        a {
+            color: $coal !important;
+            text-transform: capitalize;
+            font-weight: 600;
+        }
+    }
+    
+}
+
+#lightmode {
+    @include lightmode;
+    &:hover {
+        cursor: pointer;
+
+    }
+}
+.lights {
+    @include backgroundlight;
+    
+}
+button {
+    background-color: $primary;
+    box-shadow: none;
+    outline: none;
+    border: none;
+    
+   
+}
+.navbar-brand {
+    color: $white;
+}
+.hel {
+    width: 15rem;
+}
+
+
+.shadiw {
+    
+}
+.serhs {
+    width: 60%;
+    outline: none;
+    border: 1px solid black;
+}

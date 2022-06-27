@@ -1,0 +1,18 @@
+@use "custom";
+// import utilities
+
+@use "scss/utilities/animation";
+@use "scss/utilities/button";
+@use "scss/utilities/Typograph";
+@use "scss/utilities/mixins";
+@use "scss/utilities/merik";
+@use "scss/page/footer";
+@use "scss/page/section";
+// impor tcomponents
+@use 'scss/components/card';
+@use 'scss/components/navbar';
+@use 'scss/components/offcanvas';
+@use 'scss/components/pagination';
+@use 'scss/components/search';
+@use 'scss/components/media';
+

@@ -1,0 +1,15 @@
+@use '../../custom';
+@use '../utilities/mixins' as *;
+section {
+    height: 50vh;
+}
+.one-section {
+    @include background;
+    width: 100%;
+    height: 100%;
+}
+.et {
+   height: 35rem;
+   width: 16rem;
+}
+

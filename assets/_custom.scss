@@ -1,0 +1,66 @@
+@import "../node_modules/bootstrap/scss/bootstrap.scss";
+
+$white:    #ffff ;
+$gray-100: #f8f9fa ;
+$gray-200: #e9ecef ;
+$gray-300: #dee2e6 ;
+$gray-400: #ced4da ;
+$gray-500: #adb5bd ;
+$gray-600: #6c757d ;
+$gray-700: #495057;
+$gray-800: #343a40 ;
+$gray-900: #212529 ;
+$black:    #000 ;
+
+$blue:    #0d6efd !default;
+$indigo:  #6610f2 !default;
+$purple:  #6f42c1 !default;
+$pink:    #d63384 !default;
+$red:     #dc3545 !default;
+$orange:  #fd7e14 !default;
+$yellow:  #ffc107 !default;
+$green:   #198754 !default;
+$teal:    #20c997 !default;
+$cyan:    #0dcaf0 !default;
+$coal : #001217 !default;
+
+$primary : $coal;
+$secondary: $white;
+$footer: #151414;
+// spacing 
+$spacing :1rem !default ;
+$spacinger : (
+    0:0,
+    1: $spacing * .50,
+    2: $spacing,
+    3: $spacing * 1.5,
+    4: $spacing * 2,
+    5: $spacing * 3,
+    6: $spacing * 4,
+    7: $spacing * 5,
+    8: $spacing * 6,
+    9: $spacing * 15,
+);
+$position : (
+    0: 0,
+    40: 40%,
+    50: 50%,
+    80: 80%,
+    100: 100%,
+);
+$grid-breakpoints: (
+    xsm: 280px,
+    xs: 430px,
+    xsl: 350px,
+    sm: 576px,
+    md: 768px,
+    lg: 992px,
+    xl: 1200px,
+    xxl: 1400px
+
+);
+// edit offcavnas
+$offcanvas-horizontal-width: 250px;
+$box-shadow-sm: 0 .254rem .955rem rgba($black, .755);
+
+$trispace: "../../../webstie/font-family";

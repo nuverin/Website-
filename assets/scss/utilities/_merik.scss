@@ -1,0 +1,34 @@
+@use "../../custom" as *;
+
+$utilities : ()!default;
+$utilities : (
+    "margin-start": (
+      responsive: true,
+      property: margin-left,
+      class: mse,
+      values: map-merge($spacinger, (auto: auto))
+    ),
+    "margin-end": (
+        responsive:true,
+        property: margin-right,
+        class: mlr,
+        values: map-merge($spacinger, (auto:auto) ),
+    ),
+    "margin-x": (
+        responsive:true,
+        property: margin-right margin-left,
+        class:maxis,
+        values: map-merge($spacinger, (auto:auto) ),
+    ),
+    "position": (
+        property: position,
+        values: static relative absolute fixed sticky,
+    ),
+    "end": (
+        property: right,
+        class:end,
+        values: $position,
+    )
+);
+@import '../../../node_modules/bootstrap/scss/bootstrap.scss';
+

@@ -1,0 +1,24 @@
+@use "../../custom" as * ;
+.fnt {
+    font-size: 1rem;
+   
+    
+}
+.nav-link:hover,
+.navlink:active {
+    background-color: black;
+    padding: 0.4rem;
+
+}
+@font-face {
+    font-family: trispace;
+    src: url("#{$trispace}/Trispace-Regular.ttf") format("opentype");
+}
+.transf {
+    text-transform: uppercase;
+    
+    color: black;
+    font-family: trispace;
+    font-weight: 400;
+   
+}
